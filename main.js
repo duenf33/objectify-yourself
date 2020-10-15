@@ -6,7 +6,10 @@ const myCodeImmersivesObj = {
 myCodeImmersivesObj.objectify = 'Fernando';
 
 // Add the new property `isAnExcellentObject` and set it to `true`.
-myCodeImmersivesObj.isAnExcellentObject = true;
+// myCodeImmersivesObj.isAnExcellentObject = true;
+`isAnExcellentObject` in myCodeImmersivesObj
+myCodeImmersivesObj.isAnExcelentObject = true
+myCodeImmersivesObj;
 
 // Add the property `term` and set it to 1.
 myCodeImmersivesObj.term = 1;
@@ -26,6 +29,7 @@ myCodeImmersivesObj.cumulativeScore = myCodeImmersivesObj.cumulativeScore + myCo
 
 // Now add a property called `I am exactly this cool` (you'll need bracket notation!) and set it to `soooooo cool`.
 myCodeImmersivesObj[`I am exactly this cool`] = `soooooo cool`;
+myCodeImmersivesObj;
 
 // Now make a new EMPTY object that represents yourself.
 const myObject = {};
@@ -43,11 +47,11 @@ myObject.fullName = myObject.firstName + ' ' + myObject.lastName;
 myObject.age = 347;
 
 // Add an address property and set it to an empty array.
-const address = [];
+myObject.address = [];
 
 // Now push three strings into that array.
-address.push('333', 'NoWhere', 'New York');
-
+myObject.address.push('333', 'NoWhere', 'New York');
+myObject;
 // Now make a new object, but this time we'll pre-populate it, not set it in any lines below it. In other words, the properties should be set the same way I initially set the `codeImmersivesObject` on line 1. It can be called whatever you want and can have whatever properties you want, as long as they include at least one string value, boolean value, number value, and array of numbers. The important thing here is: this should all be done within the brackets of the object, not below the place where the object is declared.
 const newObject = {
   numberValue:     7,
